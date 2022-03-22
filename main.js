@@ -3,11 +3,12 @@
 
 
 // První příklad - vypiš vzestupně čísla od 0 do 10
-console.log('První příklad - vzestupná řada 0 - 10');
+let vypisat = [];
 
-//TADY NAPIS CYKLUS
-
-console.log('-------------------');
+for (let i = 0; i <= 10; i += 1) {
+  vypisat.push(i);
+  console.log(vypisat);
+}
 
 
 
