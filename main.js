@@ -10,11 +10,15 @@ for (let i = 0; i <= 10; i += 1) {
   console.log(vypisat);
 }
 
-
-
 // Druhý příklad - zkopíruj předchozí příklad
 // a vyzkoušej, jaký je rozdíl mezi <= a <
 // v podmínce uvnitř cyklu
+
+let rozdiel = [];
+for (let i = 0; i < 10; i += 1) {
+  rozdiel.push(i);
+  console.log(rozdiel);
+}
 
 console.log('Druhý příklad - rozdíl mezi <= a <');
 
