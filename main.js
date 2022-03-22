@@ -20,17 +20,10 @@ for (let i = 0; i < 10; i += 1) {
   console.log(rozdiel);
 }
 
-console.log('Druhý příklad - rozdíl mezi <= a <');
-
-//TADY NAPIS CYKLUS
-
-console.log('-------------------');
-
-
-
 // Třetí příklad - vypiš sestupně čísla od 10 do 0
-console.log('Třetí příklad - sestupná řada 10 - 0');
+let zostupne = [];
 
-//TADY NAPIS CYKLUS
-
-console.log('-------------------');
+for (let i = 10; i >= 0; i = i - 1) {
+  zostupne.push(i);
+  console.log(zostupne);
+}
