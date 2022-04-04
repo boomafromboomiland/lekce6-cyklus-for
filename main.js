@@ -35,7 +35,7 @@ for (let i = 10; i >= 0; i = i - 1) {
 let vypisat = [];
 let i = 0;
 
-while (i <= 10) {
+while (i < 10) {
   i++;
   vypisat.push(i);
   console.log(vypisat);
@@ -56,7 +56,7 @@ while (a < 10) {
 
 // Třetí příklad - vypiš sestupně čísla od 10 do 0
 let zostupne = [];
-let b = 10;
+let b = 11;
 
 while (b >= 0) {
   b = b - 1;
